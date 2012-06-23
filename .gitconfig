@@ -1,0 +1,12 @@
+[user]
+	name = Xin Yang
+	email = Xin2.Yang@gmail.com
+[core]
+	autocrlf = false
+	safecrlf = false
+	editor = emacsclient -n
+[i18n]
+	commitencoding = utf-8
+	logoutputencoding = gbk
+[gui]
+	encoding = utf-8
