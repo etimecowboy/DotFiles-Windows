@@ -3,14 +3,14 @@
 ######################################################################
 
 # Use if -pvc ($preview_continuous_mode) is NOT active, so that terminal can launch previewer.  Otherwise, a conflict exists.
-$preview_mode = 1;
+# $preview_mode = 1;
 
 # -pvc equivalent.  If nonzero, run a previewer to view the document and keep the DVI file up to date.
 # $preview_continuous_mode = 1;
 
 # The name of the LaTeX program that produces PDF files by default
 # $pdflatex = 'pdflatex %O -interaction=nonstopmode -synctex=1 %S';
-$latex = 'latex -shell-escape -synctex=1 %O %S';
+# $latex = 'latex -shell-escape -synctex=1 %O %S';
 # $pdflatex = "xelatex -shell-escape -synctex=1 %O %S";
 $pdflatex = "xelatex -shell-escape -interaction=nonstopmode -synctex=1 %O %S";
 
@@ -29,10 +29,10 @@ $pdf_previewer = 'Start e:/xin/.emacs.d/bin/win32/SumatraPDF.exe -reuse-instance
 $pdf_mode = 1;
 
 # Extra file extensions to remove when cleaning
-# $clean_ext = 'synctex.gz synctex.gz(busy) acn acr alg aux bbl bcf blg brf fdb_latexmk glg glo gls idx ilg ind ist lof log lot out run.xml toc dvi';
+$clean_ext = 'synctex.gz synctex.gz(busy) acn acr alg aux bbl bcf blg brf fdb_latexmk glg glo gls idx ilg ind ist lof log lot out run.xml toc dvi';
 
 # Extra file extensions to remove when doing a full clean
-$clean_full_ext = 'synctex.gz synctex.gz(busy) acn acr alg aux bbl bcf blg brf fdb_latexmk glg glo gls idx ilg ind ist lof log lot out run.xml toc dvi';
+# $clean_full_ext = 'synctex.gz synctex.gz(busy) acn acr alg aux bbl bcf blg brf fdb_latexmk glg glo gls idx ilg ind ist lof log lot out run.xml toc dvi';
 
 # Whether to clean latexmk's file database too
 # $cleanup_fdb = 0;
