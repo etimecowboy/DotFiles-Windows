@@ -20,7 +20,7 @@ $force_mode = 1;
 # The command to invoke a PDF previewer
 # $pdf_previewer = 'open -a /Applications/Adobe\ Acrobat\ 9\ Pro/Adobe\ Acrobat\ Pro.app';
 # $pdf_previewer = 'open -a Skim.app %O %S';
-$pdf_previewer = 'Start e:/xin/.emacs.d/bin/win32/SumatraPDF.exe -reuse-instance %O %S';
+$pdf_previewer = 'Start %HOME%/.emacs.d/bin/win32/SumatraPDF.exe -reuse-instance %O %S';
 
 # 0 = do not create a PDF file
 # 1 = Create a PDF file with pdflatex
