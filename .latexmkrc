@@ -3,7 +3,7 @@
 ######################################################################
 
 # Use if -pvc ($preview_continuous_mode) is NOT active, so that terminal can launch previewer.  Otherwise, a conflict exists.
-$preview_mode = 1;
+# $preview_mode = 1;
 
 # -pvc equivalent.  If nonzero, run a previewer to view the document and keep the DVI file up to date.
 # $preview_continuous_mode = 1;
